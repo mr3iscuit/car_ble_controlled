@@ -7,7 +7,6 @@ DEVICE = "/dev/rfcomm0"
 BAUD_RATE = 9600
 device = serial.Serial(DEVICE, BAUD_RATE)
 
-
 class DirectionalUI(QWidget):
     def __init__(self):
         super().__init__()
